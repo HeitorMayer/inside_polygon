@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>ProjectManager</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"/>    
+    <script type="module" src="dist/bundle.js" defer></script>
+  </head>
+  <body>
+      <div class="container">
+          <div class="row">
+            <div class="row" id="outsideMsg" style="display: none">
+                <div class="alert alert-danger" role="alert" style="width: 800; margin-top: 30px;">
+                    The point is outside!
+                </div>
+            </div>
+          </div> 
+          <div class="row" id="insideMsg" style="display: none">
+            <div class="alert alert-success" role="alert" style="width: 800; margin-top: 30px;">
+                The point is inside!
+            </div>
+            </div>
+          </div> 
+          <div class="row">
+              <div class="col-md-12">
+                <canvas id="polygonCanvas" width="800" height="600" style="border:1px solid #000000;"></canvas>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-md-12">
+                <button type="button" id="btnBuildPolygon" class="btn btn-primary">Gerar Poligono</button>
+                <button type="button" id="btnReset" class="btn btn-primary">Resetar</button>
+              </div>
+          </div>
+      </div>
+  </body>
+</html>

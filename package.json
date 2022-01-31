@@ -14,7 +14,7 @@
     "typescript",
     "polygon"
   ],
-  "author": "Rodrigo Vieira de Moraes",
+  "author": "Heitor Mayer",
   "dependencies": {
     "bootstrap": "^4.6.1"
   },
